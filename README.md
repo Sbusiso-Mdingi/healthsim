@@ -1,5 +1,7 @@
 # healthsim
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23727238.svg)](https://doi.org/10.5281/zenodo.23727238)
+
 Synthetic South African health insurance data with a known data-generating
 process, for learning and testing pricing models. Every parameter can be
 changed, and the true expected frequency and severity are returned, so you

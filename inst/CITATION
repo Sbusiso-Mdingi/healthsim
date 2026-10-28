@@ -6,8 +6,10 @@ bibentry(
   year = "2026",
   note = paste("R package version", meta$Version),
   url = "https://github.com/Sbusiso-Mdingi/healthsim",
+  doi = "10.5281/zenodo.23727238",
   textVersion = paste0(
     "Mdingi, S. (2026). healthsim: Simulate Synthetic Health Insurance ",
-    "Portfolios and Panels. R package version ", meta$Version, "."
+    "Portfolios and Panels. R package version ", meta$Version, ". ",
+    "https://doi.org/10.5281/zenodo.23727238"
   )
 )
