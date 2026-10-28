@@ -3,7 +3,8 @@ Title: Simulate Synthetic Health Insurance Portfolios and Panels
 Version: 0.1.0
 Authors@R:
     person("Sbusiso", "Mdingi", email = "sbusiso@mdingi.co.za",
-           role = c("aut", "cre", "cph"))
+           role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0009-0003-4417-968X"))
 Description: Generates synthetic South African health insurance data with a
     known data-generating process, for teaching and testing pricing models.
     One function simulates a cross-sectional portfolio of principal members
