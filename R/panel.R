@@ -193,6 +193,9 @@ steps_from_u <- function(u, st, p) {
 }
 
 sleep_from_u <- function(v, st, p) {
+  # Beta margin with the given mean and standard deviation, so values stay
+  # inside (0, 1) without piling up at a cap.
   mu <- p$sleep_mean - 0.001 * (st$Age - 40) - 0.002 * (st$BMI - 26)
-  pmin(pmax(stats::qnorm(v, mu, p$sleep_sd), 0.5), 0.99)
+  k <- mu * (1 - mu) / p$sleep_sd^2 - 1
+  stats::qbeta(v, mu * k, (1 - mu) * k)
 }
