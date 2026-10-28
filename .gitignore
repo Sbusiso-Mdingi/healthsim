@@ -1,0 +1,5 @@
+.Rproj.user
+.Rhistory
+kaggle/
+*.tar.gz
+healthsim.Rcheck/

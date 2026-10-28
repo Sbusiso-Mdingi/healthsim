@@ -1,0 +1,12 @@
+bibentry(
+  bibtype = "Manual",
+  title = "healthsim: Simulate Synthetic Health Insurance Portfolios and Panels",
+  author = person("Sbusiso", "Mdingi"),
+  year = "2026",
+  note = paste("R package version", meta$Version),
+  url = "https://www.kaggle.com/sbusisomdingiayesbu",
+  textVersion = paste0(
+    "Mdingi, S. (2026). healthsim: Simulate Synthetic Health Insurance ",
+    "Portfolios and Panels. R package version ", meta$Version, "."
+  )
+)

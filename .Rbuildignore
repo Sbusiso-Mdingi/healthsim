@@ -1,0 +1,6 @@
+^data-raw$
+^kaggle$
+^README\.Rmd$
+^\.git$
+^.*\.Rproj$
+^\.Rproj\.user$
