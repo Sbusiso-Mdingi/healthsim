@@ -3,11 +3,38 @@
   "upload_type": "software",
   "description": "R package that generates synthetic South African health insurance data with a known data-generating process, for teaching and testing pricing models: a cross-sectional portfolio with negative binomial claim counts and a lognormal-Pareto severity mixture, and a multi-year open-cohort panel with wearables joined by a Clayton copula, claims inflation, annual benefit limits, lapses and deaths.",
   "creators": [
-    {"name": "Mdingi, Sbusiso", "orcid": "0009-0003-4417-968X"}
+    {
+      "name": "Mdingi, Sbusiso",
+      "orcid": "0009-0003-4417-968X"
+    }
   ],
   "license": "MIT",
-  "keywords": ["R", "insurance pricing", "synthetic data", "actuarial science", "simulation", "South Africa"],
+  "keywords": [
+    "R",
+    "insurance pricing",
+    "synthetic data",
+    "actuarial science",
+    "simulation",
+    "South Africa"
+  ],
   "related_identifiers": [
-    {"identifier": "https://github.com/Sbusiso-Mdingi/healthsim", "relation": "isSupplementTo", "scheme": "url"}
+    {
+      "identifier": "https://github.com/Sbusiso-Mdingi/healthsim",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.34740/kaggle/dsv/21347875",
+      "relation": "compiles",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.34740/kaggle/dsv/21347892",
+      "relation": "compiles",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    }
   ]
 }
