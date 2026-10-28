@@ -4,7 +4,7 @@ bibentry(
   author = person("Sbusiso", "Mdingi"),
   year = "2026",
   note = paste("R package version", meta$Version),
-  url = "https://www.kaggle.com/sbusisomdingiayesbu",
+  url = "https://github.com/Sbusiso-Mdingi/healthsim",
   textVersion = paste0(
     "Mdingi, S. (2026). healthsim: Simulate Synthetic Health Insurance ",
     "Portfolios and Panels. R package version ", meta$Version, "."

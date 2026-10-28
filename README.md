@@ -8,16 +8,16 @@ can check how close a fitted model gets to the truth.
 The two Kaggle datasets below are built with this package
 (`data-raw/kaggle.R`):
 
-* [Health Insurance Actuarial Playground](https://www.kaggle.com/datasets/sbusisomdingiayesbu/synthetic-health-insurance-data):
+* [SA Health Insurance Pricing Data (Synthetic)](https://www.kaggle.com/datasets/sbusisomdingiayesbu/synthetic-health-insurance-data):
   `simulate_portfolio(1e5, seed = 123, claims = TRUE)`
-* [Health Insurance Panel: Claims & Telematics](https://www.kaggle.com/datasets/sbusisomdingiayesbu/health-insurance-panel-claims-and-telematics):
+* [SA Health Insurance Panel 2021-2025 (Synthetic)](https://www.kaggle.com/datasets/sbusisomdingiayesbu/health-insurance-panel-claims-and-telematics):
   `simulate_panel(2e5, years = 5, seed = 2026)`
 
 ## Install
 
 ```r
 # install.packages("remotes")
-remotes::install_local("path/to/healthsim")
+remotes::install_github("Sbusiso-Mdingi/healthsim")
 ```
 
 ## Use

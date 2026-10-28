@@ -23,5 +23,7 @@ Imports:
 Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
-URL: https://www.kaggle.com/sbusisomdingiayesbu
+URL: https://github.com/Sbusiso-Mdingi/healthsim,
+    https://www.kaggle.com/sbusisomdingiayesbu
+BugReports: https://github.com/Sbusiso-Mdingi/healthsim/issues
 Config/roxygen2/version: 8.1.1
