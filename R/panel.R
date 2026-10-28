@@ -78,7 +78,7 @@ simulate_panel <- function(n = 1e5, years = 5, seed = 123, params = panel_params
     death_time <- stats::runif(m)
     exposure <- 1 - st$Join_Fraction
     exposure[dies] <- pmax(death_time[dies] - st$Join_Fraction[dies], 0.01)
-    exposure <- round(exposure, 3)
+    exposure <- pmax(round(exposure, 3), 0.01)
 
     freq <- true_frequency(st, pf) *
       exp(p$freq_steps * (st$Steps_Latent - p$steps_mean) / 1000 +

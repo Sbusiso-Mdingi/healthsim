@@ -33,3 +33,7 @@ test_that("panel parameters are checked", {
   expect_error(panel_params(lapse_rate = 0.1), "Unknown parameter")
   expect_error(panel_params(copula_theta = 0), "copula_theta")
 })
+
+test_that("exposure is positive", {
+  expect_gte(min(pn$Exposure), 0.01)
+})
